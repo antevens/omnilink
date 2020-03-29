@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name board-eagle-import)(type Legacy)(uri ${KIPRJMOD}/board-eagle-import.lib)(options "")(descr ""))
+  (lib (name MultiAntenna)(type Legacy)(uri ${KIPRJMOD}/MultiAntenna.lib)(options "")(descr ""))
+  (lib (name board-rescue)(type Legacy)(uri ${KIPRJMOD}/board-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ANTENNA-board-eagle-import
+#
+DEF ANTENNA-board-eagle-import ANT 0 40 Y Y 1 L N
+F0 "ANT" -100 50 59 H V L BNN
+F1 "ANTENNA-board-eagle-import" 100 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 0 0 N
+P 2 1 0 0 0 -100 -100 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 0 0 100 0 N
+P 2 1 0 0 100 0 0 -100 N
+X 1 1 0 -200 100 U 0 0 1 0 O
+ENDDRAW
+ENDDEF
+#
+#End Library

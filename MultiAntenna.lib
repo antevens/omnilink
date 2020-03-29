@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MultiAntenna
+#
+DEF MultiAntenna ANT 0 40 Y Y 1 F N
+F0 "ANT" -100 50 59 H V L BNN
+F1 "MultiAntenna" 100 -200 59 H V L BNN
+F2 "board:ComboAntenna" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 0 0 N
+P 2 1 0 0 0 -100 -100 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 0 0 100 0 N
+P 2 1 0 0 100 0 0 -100 N
+P 2 1 1 0 -350 0 -250 0 N
+P 2 1 1 0 -250 -100 -350 0 N
+P 2 1 1 0 -250 0 -250 -100 N
+P 2 1 1 0 -250 0 -150 0 N
+P 2 1 1 0 -150 0 -250 -100 N
+X 915Mhz_Antenna 4 0 -200 100 U 0 0 1 0 O
+X 433MHz_Antenna 1 -250 -200 100 U 0 0 1 1 O
+X 433MHz_ToTuner 2 -250 -550 100 D 0 0 1 1 I
+X 433MHz__Untuned 3 -250 -750 100 U 0 0 1 1 O
+X 915MHz_ToTuner 5 0 -550 100 D 0 0 1 1 I
+X 915Mhz_Untuned 6 0 -750 100 U 0 0 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
